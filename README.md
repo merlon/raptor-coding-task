@@ -16,10 +16,15 @@ Send us a link to a github repo with your code and query to TODO email.
 Documents can be found in src/main/resources/interesting.txt and src/main/noninteresting.txt respectivelly. Both are lists of strings formatted as JSON.
 
 Your query will be parsed using lucene parser (https://lucene.apache.org/core/6_2_1/queryparser/org/apache/lucene/queryparser/classic/QueryParser.html) and then both query and documents would be analyzed
-using default lucene english analyzer (https://lucene.apache.org/core/6_2_1/analyzers-common/org/apache/lucene/analysis/en/EnglishAnalyzer.html). 
+using default lucene english analyzer
+(https://lucene.apache.org/core/6_2_1/analyzers-common/org/apache/lucene/analysis/en/EnglishAnalyzer.html)
+and matched against each other.
 
-You can test your query by putting it into file query.txt and running either:
+You can test your query by putting it into file query.txt and running either (if you have sbt
+installed and ready):
+
 `sbt run`
 
 Or:
+
 `packaged/bin/evaluator`
