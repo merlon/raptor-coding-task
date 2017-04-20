@@ -14,7 +14,7 @@ Send us a link to a github repo with your code, approach description and result 
 
 ## Technical details
 
-Documents can be found in src/main/resources/interesting.txt and src/main/noninteresting.txt respectivelly. Both are lists of strings formatted as JSON.
+Documents can be found in src/main/resources/interesting.txt and src/main/resources/noninteresting.txt respectivelly. Both are lists of strings formatted as JSON.
 
 Your query will be parsed using lucene parser (https://lucene.apache.org/core/6_2_1/queryparser/org/apache/lucene/queryparser/classic/QueryParser.html) and then both query and documents would be analyzed
 using default lucene english analyzer
