@@ -5,7 +5,8 @@ You are given two sets of documents:
 * noninteresting ones
 
 Your goal is to build a fulltext search query, which discriminates between interesting and noninteresting documents. Your query should have at least 99% recall, should be at most 3000 characters long, and then you should optimize combination of precision and query size, more specifically you should optimize following score:
-(3000 - <query length>) * precision
+
+(3000 - \<query length\>) * \<precision\>
 
 ## How to submit a solution
 
