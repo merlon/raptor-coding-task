@@ -11,6 +11,7 @@ Your goal is to build a fulltext search query, which discriminates between inter
 ## How to submit a solution
 
 Send us a link to a github repo with your code, approach description and result query to mlprague@ceai.io with subject "Raptor task".
+Deadline for solutions is 2nd May 23:59:59 CEST.
 
 ## Technical details
 
