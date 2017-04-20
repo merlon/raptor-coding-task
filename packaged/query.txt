@@ -1,1 +1,0 @@
-something OR ("weird stuff"~4 AND horse)

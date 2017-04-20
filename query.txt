@@ -1,1 +1,1 @@
-something OR ("weird stuff"~4 AND horse)
+dog OR ("weird stuff"~4 AND horse)
